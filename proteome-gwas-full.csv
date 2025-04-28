@@ -1,0 +1,97 @@
+Cohort,Ancestry,cohort type,Sample size,Sample type,Proteomic platform,# of Proteins mesured,# of Proteins with cis-pQTL,# of Proteins with trans-pQTL,# of pQTL Associations (cis/trans),Publication Year,doi,Remarks
+Ottawa study,,obese subjects,577,plasma,MS,133,/,/,18,2020,10.1371/journal. pcbi.1007882,
+Ottawa study,,obese subjects,428,plasma,SOMAscan,1096,/,/,118,2020,10.1371/journal. pcbi.1007882,
+DiOGenes cohort,European,,481,plasma,MS,133,,,,2020,10.1371/journal. pcbi.1007882,
+DiOGenes cohort,European,,563,plasma,SOMAscan,1096,,,,2020,10.1371/journal. pcbi.1007882,
+,,,,,,,,,,,,
+InCHIANTI study,European,population-based,1200,plasma/serum,Immuno-assay,42,8,/,9 (8/1),2008,10.1371/journal.pgen.1000072,the first proteomic GWAS
+AGES cohort,elderly Icelanders,population-based,5368,serum,SOMAscan,4782,/,/,4035 (1415/2620),2022,10.1038/s41467-021-27850-z,
+ARIC study,European,,7213,plasma,SOMAscan,4657,2004,/,/,2022,10.1038/s41588-022-01051-w,cis-pQTL analyses only
+ARIC study,African American,,1871,plasma,SOMAscan,4657,1618,/,/,2022,10.1038/s41588-022-01051-w,cis-pQTL analyses only
+ARIC study,European,,7584,plasma,SOMAscan,4651,/,/,4315,2024,10.1101/2024.09.27.24314500,medRixv
+ARIC study,African American,,1871,plasma,SOMAscan,4651,/,/,1746,2024,10.1101/2024.09.27.24314500,medRixv
+China Kadoorie Biobank,East Asian,1951 IHD cases and 2026 CKB participants,3974,plasma,Olink 3072,2923,1264,,4659,2025,10.1101/2023.11.13.23298365,medRixv
+Tromsø Study,Norwegian,196 VTE cases and 134 controls,330,serum,Immuno-assay (ELISA),51,13,/,/,2016,10.1161/CIRCGENETICS.115.001327,
+SPIROMICS and COPDGene,mixed,meta-analysis,1340,plasma,Immuno-assay,88,/,11,527,2016,10.1371/journal.pgen.1006011,
+China Kadoorie Biobank,East Asian,1951 IHD cases and 2026 CKB participants,3976,plasma,Olink ,1694,765,705,1933 (794/1139),2025,10.1038/s41467-025-56935-2,
+China Kadoorie Biobank,East Asian,1951 IHD cases and 2026 CKB participants,3976,plasma,SOMAscan,1694,513,732,1621 (526/1095),2025,10.1038/s41467-025-56935-2,
+Amsterdam dementia cohort,European,"230 AD, 123 DLB, 199 FTD , and 195 control",747,CSF,Olink ,,,,,2024,10.1093/brain/awae090,
+KORA study,European,population-based,1000,plasma,SOMAscan,1124,236,,539,2017,10.1038/ncomms14357,
+NSPHS cohort,European,population-based,872,plasma,Olink,414,217,107,,2022,10.1038/s41467-022-30208-8,Rare variants
+Qatar Biobank,Middle Eastern,population-based,2935,plasma,SOMAscan,1301,/,/,2685 (1925/760),2023,10.1093/hmg/ddac243,
+VIKING1,European,population-based,200,plasma,SOMAscan,6432,338,122,505 (382/123),2024,10.1101/2024.01.29.24301808,medRixv
+DIRECT consortium,European,pre-diabetic participants and T2D patients,3027,plasma,Olink,373,363,/,/,2023,10.1038/s41467-023-40569-3,
+Fenland study,European,population-based,10708,plasma,SOMAscan,179,97,/,/,2020,10.1038/s41467-020-19996-z,COVID-19-relevant proteins
+FHS Offspring cohort,European,community-based,759,plasma,SOMAscan,156,47,/,120,2018,10.1161/CIRCULATIONAHA.117.029536,CVD risk proteins
+UKB-PPP,European,population-based,"52,705",plasma,Olink,1473,/,/,8462,2024,10.1016/j.xgen.2024.100506,*2821 protein ratios as phenotypes
+ROS/MAP,European,older adults （post-mortem samples）,330,brain (dPFC) ,MS,7376,/,/,8451,2021,10.1016/j.ajhg.2021.01.012,
+Estonian Biobank,European,population-based,500,plasma,Olink,326,/,/,278(184/94）,2024,10.1038/s41598-024-57966-3,
+SCALLOP Consortium,European,meta-analysis,28204,plasma,Olink,1,1,1,10(1/9),2022,10.1161/CIRCULATIONAHA.121.057888,single protein (ACE2)
+Stanley Medical Research Institute/Banner Sun Health Research Institute ,European,patients with SCZ and BP and controls,268,brain (frontal cortex),MS,11608,883,/,/,2024,10.1038/s41380-024-02576-8,
+ ADNI and KADRC cohort ,European,558 AD cases and 260 controls,818,plasma,immunoassay,146,/,/,56,2016,10.1038/srep18092,
+SCALLOP Consortium,European,meta-analysis,"14,824",plasma,Olink,91,59,51,180 (59/121),2023,10.1038/s41590-023-01588-w,
+LBC1936,European,population-based,750,plasma,Olink,92,/,/,41,2019,10.1038/s41467-019-11177-x,
+YFS and FINRISK,European,population-based,8293,plasma/serum,immunoassay,41,6,/,> 27,2017,10.1016/j.ajhg.2016.11.007,
+ADNI and Knight ADRC,European,meta-analysis,574,CSF,immunoassay,59,5,/,335,2014,10.1371/journal. pgen.1004758,
+Guangzhou Nutrition and Health study,East Asian,population-based,2410,serum,MS,304,34,14,/,2023,10.1038/s41467-023-36491-3,
+Guangzhou Nutrition and Health study,East Asian,population-based,2410,serum,MS,1298*,/,/,147,2023,10.1038/s41467-023-36491-3,* peptide-level as phenotype
+HELIC study,European,meta-analysis,3005,serum,Olink,92,/,/,322 (76/246),2023,10.1016/j.molmet.2023.101810,
+Individuals from 36 studies,European,meta-analysis,52126,/,/,1,1,1,5 (1/4),2016,10.1038/ncomms10494,single protein (leptin)
+/,European,samples from multiple sources in the US,287,liver,MS,1344,74,602,6155,2020,10.1186/s12915-020-00830-3,
+Individuals recruited in Japan,East Asian,88 patients with psychiatric disorder and 45 controls,133,CSF,SOMAscan,1126,55,10,446 (421/25),2017,10.1093/hmg/ddw366,
+STRADL cohort,European,population-based,1064,plasma,SOMAscan,282,23,/,64 (36/28),2022,10.1002/dad2.12280,
+Framingham Heart Study,European,community-based,6861,plasma,immunoassay,71,40,44,16602 (11806/4796),2018,10.1038/s41467-018-05512-x,
+SCALLOP Consortium,European,meta-analysis,30391,plasma,Olink,90,75,73,/,2020,10.1038/s42255-020-00287-2,
+INTERVAL study,European,population-based,3301,plasma,SOMAscan,2294,553,1104,1927 (549/1378),2018,10.1038/s41586-018-0175-2,
+participants from Washington University,European,/,835,CSF,SOMAscan,713,/,/,274 (226/48),2021,10.1038/s41593-021-00886-6,
+participants from Washington University,European,/,380,brain (parietal lobe cortex),SOMAscan,1079,/,/,32 (30/2),2021,10.1038/s41593-021-00886-6,
+participants from Washington University,European,/,529,plasma,SOMAscan,931,/,/,127 (97/30),2021,10.1038/s41593-021-00886-6,
+CERTIFI study,European,51 CD cases,51,serum,SOMAscan,1128,41,/,/,2017,10.137 1/journal.pgen.1006565,
+HapMap YRI LCLs,African,derived from Yoruba individuals,68,cell lines,RPPA/MWA,441,/,/,172 (12/160),2014,10.1016/j.ajhg.2014.07.005,transcription factors; at FDR < 20%
+AASK study,African American,randomized controlled trial of CKD attributed to hypertension,446,serum,SOMAscan,6790,/,/,969 (379/590),2022,10.1016/ j.kint.2022.07.005,
+AddNeuroMed study,European,multi-center study for AD,97,plasma,SOMAscan,778,60,/,/,2012,10.1093/hmg/dds186,first proteomic GWAS using SOMAscan
+Tromsø Study,Norwegian,82 VTE cases and 83 controls,165,plasma,MS,664,31,/,33,2018,10.1161/CIRCGEN.118.002170,
+Tromsø Study,Norwegian,82 VTE cases and 83 controls,165,plasma,MS,5608*,80,/,154 (86/68),2018,10.1161/CIRCGEN.118.002170,* peptide-level as phenotype
+NSPHS,European,population-based,1005,plasma,Olink,72,/,/,5812,2019,10.1038/s41598-019-53111-7,Rare variants included
+Lifelines-DEEP cohort,European,prospective cohort,1619,plasma,Olink,92,66,36,214 (129/85),2018,10.1038/s41588-018-0224-7,
+ADNI cohort,European,AD focused,521,plasma,immunoassay,132,/,/,112,2013,10.1371/journal.pone.0070269,
+Milieu Intérieur cohort,European,population-based,400,plasma,Luminex,229,78,11,112 (100/12),2022,10.1186/s13073-022-01032-y,
+Icelandic Cancer Project and deCODE genetics,European,/,35559,plasma,SOMAscan,4719,1865,2944,18084 (1881/16203),2021,10.1038/s41588-021-00978-w,Rare variants included
+ORCADES cohort,European,family-based,909,plasma,Olink,249,/,/,121,2020,10.1371/journal. pgen.1008785,
+SCALLOP Consortium,European,meta-analysis,26494,plasma,Olink,184,166,171,1308 (288/1020),2021,10.1101/2021.08.03.21261494,medRixv
+IMPROVE study,European,multi-center study of individuals with CVD risks,3394,plasma,Olink,83,/,/,79 (41/38),2017,10.1371/journal.pgen.1006706,
+Fenland study,European,population-based,10708,plasma,SOMAscan,3892,1569,3369,10674,2021,10.1126/science.abj1541,
+MANOLIS and Pomak,European,meta-analysis,2893,serum,Olink,184,91,38,214,2021,10.1038/s41467-021-27387-1,
+UK National PAH cohort,European,patients with PAH,356,plasma,SOMAscan,4349,/,/,524,2022,10.1164/rccm.202109-2106OC ,
+YFS07/FINRISK97/FINRISK02,European,meta-analysis,9267,plasma/serum,immunoassay,1,/,/,8,2019,10.1016/j.ajhg.2019.10.001,*multivariate analysis of 11 cytokines
+QMDiab,multi-ethnic,,,,,,,,,2024,10.1038/s41467-024-45233-y,
+,,,,,,,,,,2021,10.1038/s41467-021-22767-z,the NGS version of Olink 
+HOLBAEK Study,European,children and adolescents,"1,909",plasma,MS,1216,/,/,1252,2025,10.1038/s41588-025-02089-2,
+HipSci Initiative,/,iPSC lines,202,cell lines,MS,8543,654,/,/,2020,10.7554/eLife.57390,
+Dietary intervention study,European,overweight or obese subjects,932,plasma,SOMAscan,192,34,22,/,2017,10.1038/s41467-017-02182-z,
+eight multi-ethnic cohorts,European,meta-analysis; enriched for AD cases,3350,CSF,SomaScan/MSD,1,1,1,4 (1/3),2024,10.1186/s13024-023-00687-4,single protein (sTREM2)
+Jackson Heart Study,African American,community-based,1054,plasma,Olink,2881,/,/,1002 (859/143),2024,10.1172/JCI181802,
+eight multi-ethnic cohorts,European,enriched for AD cases,3506,CSF,SOMAscan,6361,/,/,2477 (1272/1205),2024,10.1038/s41588-024-01972-8,
+EPIC-Norfolk study,European,population-based,1180,serum,Olink,2923,/,/,1153,2023,10.1038/s42255-023-00753-7,
+SCALLOP Consortium,European,meta-analysis,22997,plasma,Olink,92,/,/,503 (337/166),2023,10.1186/s12014-023-09421-0,
+,,,,,,,,,,,10.1126/ sciadv.abm5164,
+Twins UK,European,72 monozygotic and 44 dizygotic twins,113,plasma,MS,303,/,/,13,2015,10.15252/msb.20145728,758 SNPs tested
+UKB-PPP,European,population-based,49736,plasma,Olink,2923,,,5433,2023,10.1038/s41586-023-06547-x,exome-wide association
+GTEx Consortium,,,144,colon,MS,7774,,,,2025,10.1101/2025.01.10.25320181,
+GTEx Consortium,,,142,heart left ventricle,MS,7463,,,,2025,10.1101/2025.01.10.25320181,
+GTEx Consortium,,,144,liver,MS,8675,,,,2025,10.1101/2025.01.10.25320181,
+GTEx Consortium,,,144,lung,MS,9063,,,,2025,10.1101/2025.01.10.25320181,
+GTEx Consortium,,,144,thyroid,MS,8407,,,,2025,10.1101/2025.01.10.25320181,
+GTEx Consortium,European,"five tissues from GTEx,  Colon, Heart, Liver, Lung, and Thyroid",144,multi-tissue,MS,10841,/,/,2011 (1981/30),2025,10.1101/2025.01.10.25320181,
+ROS/MAP/ANDI/BLSA,European,sex-biased pQTL,716,brain,MS,"10,198",/,/,154*,2023,10.1038/s41591-023-02509-y,"*sb-pQTL, pQTL with Genotype by Sex interaction"
+Japan COVID-19 Task Force,East Asian,participants with varing levels of COVID-19 phenotype,1384,plasma,Olink,2932,/,/,/,2024,10.1038/s41588-024-01896-3,1191 proteins with at least one QTL (P < 5 × 10−8)
+SCALLOP Consortium,European,meta-analysis,12176,plasma,Olink,184,125,/,289 (125/164),2024,10.1038/s41562-024-01963-z,
+BioFINDER study,European,enriched for cognitively impaired patients,1591,CSF,Olink,398,/,/,176 (117/59),2022,10.15252/emmm.202216359,
+BioFINDER study,European,enriched for cognitively impaired patients,1591,plasma,Olink,398,/,/,197 (141/56),2022,10.15252/emmm.202216359,
+NSPHS,European,population-based,961,plasma,Olink,121,24,5,/,2017,10.1371/journal. pgen.1007005,
+AFHRI-B,European,/,75,atrial tissue,MS,1337,/,/,4081,2022,10.1038/s41467-022-27953-1,
+HapMap Project,diverse ethnic,lymphoblastoid cell lines from 95 individuals in the HapMap project,95,cell lines,MS,4053,77,/,/,2013,10.1038/nature12223,cis-pQTL analyses only
+Jackson Heart Study,African American,community-based,1852,plasma,SOMAscan,1301,/,/,569 (329/240),2022,10.1161/CIRCULATIONAHA.121.055117,Rare variants included
+S3WP study,European,longitudinal study,101,plasma,Olink,795,67,40,144 (67/77),2022,10.1186/s13073-020-00755-0,
+MANOLIS,European,/,1328,serum,Olink,257,/,/,131,2020,10.1038/s41467-020-20079-2,Rare variants included
+ARIC study,African American and European American,"meta-analysis, 1552 EA and 1872 AA",3424,serum,MS,25*,/,/,26,2017,10.1093/hmg/ddx266,*peptides; Rare variants included
