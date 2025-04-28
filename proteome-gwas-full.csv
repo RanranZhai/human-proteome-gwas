@@ -3,14 +3,13 @@ Ottawa study,,obese subjects,577,plasma,MS,133,/,/,18,2020,10.1371/journal. pcbi
 Ottawa study,,obese subjects,428,plasma,SOMAscan,1096,/,/,118,2020,10.1371/journal. pcbi.1007882,
 DiOGenes cohort,European,,481,plasma,MS,133,,,,2020,10.1371/journal. pcbi.1007882,
 DiOGenes cohort,European,,563,plasma,SOMAscan,1096,,,,2020,10.1371/journal. pcbi.1007882,
-,,,,,,,,,,,,
 InCHIANTI study,European,population-based,1200,plasma/serum,Immuno-assay,42,8,/,9 (8/1),2008,10.1371/journal.pgen.1000072,the first proteomic GWAS
 AGES cohort,elderly Icelanders,population-based,5368,serum,SOMAscan,4782,/,/,4035 (1415/2620),2022,10.1038/s41467-021-27850-z,
 ARIC study,European,,7213,plasma,SOMAscan,4657,2004,/,/,2022,10.1038/s41588-022-01051-w,cis-pQTL analyses only
 ARIC study,African American,,1871,plasma,SOMAscan,4657,1618,/,/,2022,10.1038/s41588-022-01051-w,cis-pQTL analyses only
 ARIC study,European,,7584,plasma,SOMAscan,4651,/,/,4315,2024,10.1101/2024.09.27.24314500,medRixv
 ARIC study,African American,,1871,plasma,SOMAscan,4651,/,/,1746,2024,10.1101/2024.09.27.24314500,medRixv
-China Kadoorie Biobank,East Asian,1951 IHD cases and 2026 CKB participants,3974,plasma,Olink 3072,2923,1264,,4659,2025,10.1101/2023.11.13.23298365,medRixv
+China Kadoorie Biobank,East Asian,1951 IHD cases and 2026 CKB participants,3974,plasma,Olink,2923,1264,,4659,2025,10.1101/2023.11.13.23298365,medRixv
 Tromsø Study,Norwegian,196 VTE cases and 134 controls,330,serum,Immuno-assay (ELISA),51,13,/,/,2016,10.1161/CIRCGENETICS.115.001327,
 SPIROMICS and COPDGene,mixed,meta-analysis,1340,plasma,Immuno-assay,88,/,11,527,2016,10.1371/journal.pgen.1006011,
 China Kadoorie Biobank,East Asian,1951 IHD cases and 2026 CKB participants,3976,plasma,Olink ,1694,765,705,1933 (794/1139),2025,10.1038/s41467-025-56935-2,
@@ -34,7 +33,7 @@ LBC1936,European,population-based,750,plasma,Olink,92,/,/,41,2019,10.1038/s41467
 YFS and FINRISK,European,population-based,8293,plasma/serum,immunoassay,41,6,/,> 27,2017,10.1016/j.ajhg.2016.11.007,
 ADNI and Knight ADRC,European,meta-analysis,574,CSF,immunoassay,59,5,/,335,2014,10.1371/journal. pgen.1004758,
 Guangzhou Nutrition and Health study,East Asian,population-based,2410,serum,MS,304,34,14,/,2023,10.1038/s41467-023-36491-3,
-Guangzhou Nutrition and Health study,East Asian,population-based,2410,serum,MS,1298*,/,/,147,2023,10.1038/s41467-023-36491-3,* peptide-level as phenotype
+Guangzhou Nutrition and Health study,East Asian,population-based,2410,serum,MS,1298,/,/,147,2023,10.1038/s41467-023-36491-3,* peptide-level as phenotype
 HELIC study,European,meta-analysis,3005,serum,Olink,92,/,/,322 (76/246),2023,10.1016/j.molmet.2023.101810,
 Individuals from 36 studies,European,meta-analysis,52126,/,/,1,1,1,5 (1/4),2016,10.1038/ncomms10494,single protein (leptin)
 /,European,samples from multiple sources in the US,287,liver,MS,1344,74,602,6155,2020,10.1186/s12915-020-00830-3,
@@ -51,7 +50,7 @@ HapMap YRI LCLs,African,derived from Yoruba individuals,68,cell lines,RPPA/MWA,4
 AASK study,African American,randomized controlled trial of CKD attributed to hypertension,446,serum,SOMAscan,6790,/,/,969 (379/590),2022,10.1016/ j.kint.2022.07.005,
 AddNeuroMed study,European,multi-center study for AD,97,plasma,SOMAscan,778,60,/,/,2012,10.1093/hmg/dds186,first proteomic GWAS using SOMAscan
 Tromsø Study,Norwegian,82 VTE cases and 83 controls,165,plasma,MS,664,31,/,33,2018,10.1161/CIRCGEN.118.002170,
-Tromsø Study,Norwegian,82 VTE cases and 83 controls,165,plasma,MS,5608*,80,/,154 (86/68),2018,10.1161/CIRCGEN.118.002170,* peptide-level as phenotype
+Tromsø Study,Norwegian,82 VTE cases and 83 controls,165,plasma,MS,5608,80,/,154 (86/68),2018,10.1161/CIRCGEN.118.002170,* peptide-level as phenotype
 NSPHS,European,population-based,1005,plasma,Olink,72,/,/,5812,2019,10.1038/s41598-019-53111-7,Rare variants included
 Lifelines-DEEP cohort,European,prospective cohort,1619,plasma,Olink,92,66,36,214 (129/85),2018,10.1038/s41588-018-0224-7,
 ADNI cohort,European,AD focused,521,plasma,immunoassay,132,/,/,112,2013,10.1371/journal.pone.0070269,
@@ -94,4 +93,4 @@ HapMap Project,diverse ethnic,lymphoblastoid cell lines from 95 individuals in t
 Jackson Heart Study,African American,community-based,1852,plasma,SOMAscan,1301,/,/,569 (329/240),2022,10.1161/CIRCULATIONAHA.121.055117,Rare variants included
 S3WP study,European,longitudinal study,101,plasma,Olink,795,67,40,144 (67/77),2022,10.1186/s13073-020-00755-0,
 MANOLIS,European,/,1328,serum,Olink,257,/,/,131,2020,10.1038/s41467-020-20079-2,Rare variants included
-ARIC study,African American and European American,"meta-analysis, 1552 EA and 1872 AA",3424,serum,MS,25*,/,/,26,2017,10.1093/hmg/ddx266,*peptides; Rare variants included
+ARIC study,African American and European American,"meta-analysis, 1552 EA and 1872 AA",3424,serum,MS,25,/,/,26,2017,10.1093/hmg/ddx266,*peptides; Rare variants included
