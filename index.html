@@ -1,68 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Human Proteome GWAS Catalog</title>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <title>CSV Table with Fixed Header</title>
+  <!-- 引入 DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
   <style>
-    body { font-family: Arial, sans-serif; padding: 2em; }
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    h1 { margin-bottom: 1em; }
     table { width: 100%; }
-    h1 { font-size: 28px; }
-    a { text-decoration: none; color: #0073e6; }
   </style>
 </head>
 <body>
 
-<h1>🧬 Human Proteome GWAS Catalog</h1>
-<p>A curated list of human proteome GWAS studies based on plasma, serum, CSF, and other tissues.</p>
+<h1>My Protein Table</h1>
 
-<table id="gwasTable" class="display">
+<table id="myTable" class="display">
   <thead>
-    <tr>
-      <th>Cohort</th>
-      <th>No. of Samples</th>
-      <th>Type of Samples</th>
-      <th>No. of Proteins</th>
-      <th>cis-pQTL Proteins</th>
-      <th>cis Associations</th>
-      <th>Platform</th>
-      <th>Year</th>
-      <th>Ref.</th>
-    </tr>
+    <tr id="table-head-row"></tr>
   </thead>
-  <tbody></tbody>
+  <tbody id="table-body">
+  </tbody>
 </table>
 
+<!-- 引入 JQuery 和 DataTables JS -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
+<!-- 引入 PapaParse -->
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+
 <script>
-  $(document).ready(function () {
-    Papa.parse("papers.csv", {
-      download: true,
-      header: true,
-      complete: function(results) {
-        results.data.forEach(function(row) {
-          const link = row["Ref."] ? `<a href="${row["Ref."]}" target="_blank">📄</a>` : "";
-          const htmlRow = `
-            <tr>
-              <td>${row["Cohort"]}</td>
-              <td>${row["No. of Samples"]}</td>
-              <td>${row["Type of Samples"]}</td>
-              <td>${row["No. of Proteins"]}</td>
-              <td>${row["No. of proteins with cis pQTL"]}</td>
-              <td>${row["No. of Associations (cis)"]}</td>
-              <td>${row["Platform"]}</td>
-              <td>${row["Year of Publication"]}</td>
-              <td>${link}</td>
-            </tr>`;
-          $("#gwasTable tbody").append(htmlRow);
+  $(document).ready(function() {
+    fetch('data.csv')
+      .then(response => response.text())
+      .then(csvData => {
+        const parsedData = Papa.parse(csvData, { header: true });
+        const fields = parsedData.meta.fields;
+        const data = parsedData.data.filter(row => Object.values(row).some(cell => cell !== ""));
+
+        // 设置表头
+        fields.forEach(col => {
+          $('#table-head-row').append('<th>' + col + '</th>');
         });
-        $('#gwasTable').DataTable({
-          pageLength: 25
+
+        // 设置表格内容
+        data.forEach(row => {
+          let tr = '<tr>';
+          fields.forEach(col => {
+            tr += '<td>' + (row[col] || '') + '</td>';
+          });
+          tr += '</tr>';
+          $('#table-body').append(tr);
         });
-      }
-    });
+
+        // 初始化 DataTable + 固定表头
+        $('#myTable').DataTable({
+          pageLength: 50,
+          lengthMenu: [10, 25, 50, 100, 200],
+          ordering: true,
+          searching: true,
+          fixedHeader: true // ⭐ 这里打开固定表头功能
+        });
+      })
+      .catch(error => {
+        console.error('Error loading CSV:', error);
+        $('#table-container').text('Failed to load table.');
+      });
   });
 </script>
 
