@@ -6,49 +6,62 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
   <style>
     body { font-family: Arial, sans-serif; padding: 2em; }
     table { width: 100%; }
     h1 { font-size: 28px; }
+    a { text-decoration: none; color: #0073e6; }
   </style>
 </head>
 <body>
 
-<h1>🧬 Human Proteome GWAS Index</h1>
-<p>A curated list of genome-wide association studies of the human proteome.</p>
+<h1>🧬 Human Proteome GWAS Catalog</h1>
+<p>A curated list of human proteome GWAS studies based on plasma, serum, CSF, and other tissues.</p>
 
 <table id="gwasTable" class="display">
   <thead>
     <tr>
-      <th>Title</th>
-      <th>First Author</th>
-      <th>Year</th>
-      <th>Sample Type</th>
-      <th>Platform</th>
       <th>Cohort</th>
-      <th>Proteins (n)</th>
-      <th>Link</th>
+      <th>No. of Samples</th>
+      <th>Type of Samples</th>
+      <th>No. of Proteins</th>
+      <th>cis-pQTL Proteins</th>
+      <th>cis Associations</th>
+      <th>Platform</th>
+      <th>Year</th>
+      <th>Ref.</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Genomic atlas of the human plasma proteome</td>
-      <td>Sun</td>
-      <td>2018</td>
-      <td>Plasma</td>
-      <td>Olink</td>
-      <td>INTERVAL</td>
-      <td>3000</td>
-      <td><a href="https://www.nature.com/articles/s41586-018-0175-2" target="_blank">View</a></td>
-    </tr>
-    <!-- Add more rows here -->
-  </tbody>
+  <tbody></tbody>
 </table>
 
 <script>
   $(document).ready(function () {
-    $('#gwasTable').DataTable({
-      pageLength: 25
+    Papa.parse("papers.csv", {
+      download: true,
+      header: true,
+      complete: function(results) {
+        results.data.forEach(function(row) {
+          const link = row["Ref."] ? `<a href="${row["Ref."]}" target="_blank">📄</a>` : "";
+          const htmlRow = `
+            <tr>
+              <td>${row["Cohort"]}</td>
+              <td>${row["No. of Samples"]}</td>
+              <td>${row["Type of Samples"]}</td>
+              <td>${row["No. of Proteins"]}</td>
+              <td>${row["No. of proteins with cis pQTL"]}</td>
+              <td>${row["No. of Associations (cis)"]}</td>
+              <td>${row["Platform"]}</td>
+              <td>${row["Year of Publication"]}</td>
+              <td>${link}</td>
+            </tr>`;
+          $("#gwasTable tbody").append(htmlRow);
+        });
+        $('#gwasTable').DataTable({
+          pageLength: 25
+        });
+      }
     });
   });
 </script>
