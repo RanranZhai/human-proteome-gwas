@@ -1,4 +1,4 @@
-Cohort,Ancestry,cohort type,Sample size,Sample type,Proteomic platform,# of Proteins mesured,# of Proteins with cis-pQTL,# of Proteins with trans-pQTL,# of pQTL Associations (cis/trans),Publication Year,doi,Remarks
+Cohort,Ancestry,Description,Sample size,Sample type,Proteomic platform,# of Proteins mesured,# of Proteins with cis-pQTL,# of Proteins with trans-pQTL,# of pQTL Associations (cis/trans),Publication Year,doi,Remarks
 Ottawa study,,obese subjects,577,plasma,MS,133,/,/,18,2020,10.1371/journal. pcbi.1007882,
 Ottawa study,,obese subjects,428,plasma,SOMAscan,1096,/,/,118,2020,10.1371/journal. pcbi.1007882,
 DiOGenes cohort,European,,481,plasma,MS,133,,,,2020,10.1371/journal. pcbi.1007882,
@@ -93,4 +93,5 @@ HapMap Project,diverse ethnic,lymphoblastoid cell lines from 95 individuals in t
 Jackson Heart Study,African American,community-based,1852,plasma,SOMAscan,1301,/,/,569 (329/240),2022,10.1161/CIRCULATIONAHA.121.055117,Rare variants included
 S3WP study,European,longitudinal study,101,plasma,Olink,795,67,40,144 (67/77),2022,10.1186/s13073-020-00755-0,
 MANOLIS,European,/,1328,serum,Olink,257,/,/,131,2020,10.1038/s41467-020-20079-2,Rare variants included
+
 ARIC study,African American and European American,"meta-analysis, 1552 EA and 1872 AA",3424,serum,MS,25,/,/,26,2017,10.1093/hmg/ddx266,*peptides; Rare variants included
