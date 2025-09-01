@@ -11,6 +11,12 @@
     body { font-family: Arial, sans-serif; margin: 2em; }
     h1 { margin-bottom: 1em; }
     table { width: 100%; }
+    
+    table.dataTable thead th {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -58,7 +64,7 @@
 
         // 初始化 DataTable + 固定表头
         $('#myTable').DataTable({
-          pageLength: 50,
+          pageLength: 20,
           lengthMenu: [10, 25, 50, 100, 200],
           ordering: true,
           searching: true,
